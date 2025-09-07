@@ -4,10 +4,10 @@ CodeGuru is an AI-powered coding assistant built with Ollama and Gradio, designe
 
 Features:
 
- Chat-style Assistant – answer coding questions in real time
- Explain Mode – step-by-step explanation of code
- Learning Mode – coding quizzes & debugging challenges
- IDE-Themed Dark UI – syntax highlighting + developer fonts
+ Chat-style Assistant – answer coding questions in real time. 
+ Explain Mode – step-by-step explanation of code.
+ Learning Mode – coding quizzes & debugging challenges.
+ IDE-Themed Dark UI – syntax highlighting + developer fonts.
 
  Tech Stack Used:
 Ollama → runs local LLMs (fast, private, offline)
