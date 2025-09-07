@@ -1,48 +1,43 @@
-###CodeGuru – AI Code Assistant
+CodeGuru – AI Code Assistant
 
-CodeGuru is an AI-powered coding assistant built with Ollama and Gradio, designed to help developers write, debug, and learn code in an IDE-like chat interface.
+CodeGuru is a coding assistant I built using Ollama and Gradio.
+It’s more than just a chatbot – it can explain code step by step, quiz you with coding questions, and give answers in a clean IDE-style interface with syntax highlighting.
 
-Features:
+What it can do
 
- Chat-style Assistant – answer coding questions in real time. 
- Explain Mode – step-by-step explanation of code.
- Learning Mode – coding quizzes & debugging challenges.
- IDE-Themed Dark UI – syntax highlighting + developer fonts.
+Answer coding questions in a chat format
+Explain Mode → break down code like a tutor
+Learning Mode → ask coding quizzes and debugging challenges
+Dark, IDE-inspired UI with proper code formatting
 
- Tech Stack Used:
-Ollama → runs local LLMs (fast, private, offline)
-Modelfile → defines model behavior (CodeGuru personality)
-Gradio → interactive chat UI with custom CSS styling
-Markdown → renders clean, syntax-highlighted code blocks
-Python (requests, langchain) → backend API calls & future extensions
+Tech I used
 
- Setup:
-1. Install Ollama
+Ollama → runs the large language model locally (fast, private, no API costs)
+Modelfile → defines the "CodeGuru" assistant personality and behavior
+Gradio → powers the chat interface with toggles for different modes
+Markdown + CSS → makes the answers look like real code with syntax highlighting
+Python (requests, langchain) → handles API calls and leaves room for future extensions
 
-Download from Ollama
+Getting Started
+
+Install Ollama
  and run the model:
 
 ollama run codeguru
 
-2️.Clone & Install
+
+Clone the repo and install dependencies:
+
 git clone https://github.com/yourusername/codeguru.git
 cd codeguru
 pip install -r requirements.txt
 
-3️. Run the App
+
+Start the app:
+
 python app.py
 
 
 Open http://127.0.0.1:7860
- in your browser
-
-
- Future Improvements:
- Code-to-Flowchart visualization
-
- Save & reuse code snippets
-
- Run code sandbox for Python snippets
-
- Voice-to-Code support
+ in your browsers
 
